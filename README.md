@@ -1,7 +1,10 @@
 # gdext-godot-rust-template
 This repo contains an unofficial minimalist gdext godot-rust project template for game development by following the [godot-rust book](https://godot-rust.github.io/book/intro/hello-world.html) getting started guide.
 
-Make sure to change the libraries section in `rust.gdextension` to specify **your** cargo compilation target as shown below. Then run `cargo build` in the `rust/` directory. Then, create your Godot project in the `godot/` directory. 
+**Instructions:**
+ - Make sure to change the libraries section in `rust.gdextension` to specify **your** cargo compilation target as shown below.
+ - Run `cargo build` in the `rust/` directory.
+ - Create your Godot project in the `godot/` directory. 
 ```TOML
 [libraries]
 # Linux
