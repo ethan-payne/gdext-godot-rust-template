@@ -1,3 +1,5 @@
 rust/target/
-godot/.godot/
+godot/.editorconfig
+godot/.godot
 !godot/.godot/extension_list.cfg
+!godot/.godot/.gdignore
